@@ -14,7 +14,21 @@
 			},
 			{
 				"inputs": [],
+				"name": "testAccessControl",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "testCannotOverAllocate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCannotRevokeNonRevocable",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -28,7 +42,21 @@
 			},
 			{
 				"inputs": [],
+				"name": "testFuzzVestedAmountBounds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "testPastStartAndRelease",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testReleaseAfterRevokeClaimsOnlyVested",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -42,7 +70,35 @@
 			},
 			{
 				"inputs": [],
+				"name": "testRevokeAfterFullVesting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRevokeBeforeCliff",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testSequentialReleaseAndZeroReleasableRevert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "testTransferSchedule",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testVestingTimelineCheckpoints",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -210,12 +266,20 @@
 				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
 			]
 		},
-		"tests/VestingVault_test.sol": {
-			"keccak256": "0x1064b46b182af013598f99ab6077814ada3a4bcfa9533d0dace47a775f89d12c",
+		"tests/UnauthorizedCaller.sol": {
+			"keccak256": "0xdec42b11de2d4fb7e5411602de13faad7c032e6db94199250661cf1e02080902",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dc526eebbc3b178254c61301f3decf725a605031187281e13dd6e8a34b834f0c",
-				"dweb:/ipfs/QmPrtGn8sYomwZaz8BQJE6srFiwVjDnKhvPWMzxb2muWoG"
+				"bzz-raw://1721a7a1942c4e94be70327a68f36b275349d6dc54e583232986466c1a403209",
+				"dweb:/ipfs/QmaZDMk5MjRPzc4cwtHas7XYNmfDtZzqzps5sd5gDJFHBi"
+			]
+		},
+		"tests/VestingVault_test.sol": {
+			"keccak256": "0x4dce24cad6443fe06a02c53de8610582067ec86a384b4b5eb206cd96b6635d8b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43324c553933d67e4de14370ac2556fbecf502003f1495c9ae6fbae4040c43b7",
+				"dweb:/ipfs/QmYWfYmLvLSLeuPy5YhDkbcgW3uFPFUkmpCNMngPHhez8j"
 			]
 		}
 	},
